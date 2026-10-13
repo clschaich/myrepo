@@ -4,7 +4,7 @@ author: "Chris Schaich"
 date: "2026-10-13"
 output: html_document
 ---
-df
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -32,3 +32,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ***
 
 Testing if html doc updates on github
+
+```{r}
+summary(penguins)
+```
