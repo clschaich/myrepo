@@ -3,6 +3,7 @@ title: "MyRmd"
 author: "Chris Schaich"
 date: "2026-10-13"
 output: html_document
+keep_md: true
 ---
 
 ```{r setup, include=FALSE}
